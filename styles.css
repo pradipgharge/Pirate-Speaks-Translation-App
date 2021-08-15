@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Lato:wght@350&display=swap');
+
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+}
+
+:root{
+        --primary-color:#FCA5A5;
+}
+
+body{   
+        text-align:center;
+        background-color:rgb(248, 229, 202);
+}
+
+.container{
+        text-align: center;
+}
+
+.header{
+       
+        background-color: var(--primary-color);
+        border-bottom-right-radius: 1rem;
+        margin-bottom:0.5rem;
+        padding-bottom: 0.5rem;
+}
+
+.header-heading{
+        font-family: 'Neucha', cursive;
+        font-size: 50px;
+        color: #991B1B;
+        padding: 0.5rem 0;
+}
+
+.header-image{
+        font-family: 'Neucha', cursive;
+        display:block;
+        padding-left:12rem;
+        color: black;
+        font-weight:500;
+      
+}
+
+
+
